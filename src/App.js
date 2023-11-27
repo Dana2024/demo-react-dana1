@@ -1,21 +1,20 @@
-export default function Game() {
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import PrincessDetails from "./Components/PrincessDetails";
+import "./styles.scss";
+
+export function App() {
   return (
-    <>
-      <p>Hello</p>
-      <PrincessCard name="Ariel" image="ariel.png" />
-      <PrincessCard name="Mulan" image="mulan.png" />
-      <PrincessCard name="Cinderella" image="cinderella.png" />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="details/:name" element={<PrincessDetails />} />
+      </Routes>
+    </Router>
   );
 }
 
-function PrincessCard({ name, image }) {
-  return (
-    <div className="card ">
-      <p>
-        <a href={name + ".html"}>{name}</a>
-      </p>
-      <img src="{{image}}" alt="{name}" />
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

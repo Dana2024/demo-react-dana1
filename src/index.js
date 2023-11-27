@@ -1,8 +1,11 @@
 import React, { StrictMode } from "react";
+import { ReactDOM } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles.css";
+import "./styles.scss";
+import 'macro-css'
 
-import App from "./App";
+import Home from "./Components/Home";
+import {App} from "./App";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
@@ -10,3 +13,4 @@ root.render(
     <App />
   </StrictMode>
 );
+

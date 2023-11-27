@@ -1,0 +1,40 @@
+{
+    "princesses": [
+        { 
+        "name": "ariel",
+        "character":"Adventurous, Curious, Spirited, Kind",
+        "film": "the little mermaid",
+        "description": "Ariel has a passion for collecting human artifacts. She has a desire to explore new things. Do you like coolecting? What would you like to explore?"
+        },
+        {
+        "name": "mulan",
+        "character":"Courageous, Independent, Determined, Thoughtful",
+        "film": "Mulan",
+        "description": "dfjsfkjsfksjflsjfljefljslfjs"
+        },
+        {
+        "name": "cinderella",
+        "character":"Kind-hearted, Resilient, Graceful, Friendly",
+        "film": "Cinderella",
+        "description": "dfjsfkjsfksjflsjfljefljslfjs"
+        },
+        {
+        "name": "aurora",
+        "character":"Gentle, Cheerful, Dreamer",
+        "film": "The Sleeping Beauty",
+        "description": "dfjsfkjsfksjflsjfljefljslfjs"  
+        },
+        {
+        "name": "elsa",
+        "character":"Independent, Inspiring, Elegant",
+        "film": "Frozen",
+        "description": "dfjsfkjsfksjflsjfljefljslfjs"   
+        },
+        {
+        "name": "anna",
+        "character":"Loving, Playful, Courageous",
+        "film": "Frozen",
+        "description": "dfjsfkjsfksjflsjfljefljslfjs"   
+        }
+    ]
+}
